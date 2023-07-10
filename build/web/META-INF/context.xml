@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/A01_RT03">
+    <Resource auth="Container" 
+            driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+            name="jdbc/mydb"  
+            type="javax.sql.DataSource" 
+            url="jdbc:sqlserver://localhost:1433;databaseName=A01_RT03;" 
+            username="sa"
+            password="12345"/>
+</Context>
